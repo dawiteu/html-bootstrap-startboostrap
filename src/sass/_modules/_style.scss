@@ -1,0 +1,11 @@
+.black{
+    background-color: $black;
+}
+.pink{
+    background-color: $pink;
+}
+
+.hover-rouge:hover{
+    background-color: red;
+    transition: 2s;
+}

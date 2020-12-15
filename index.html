@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="public/css/app.css">
 </head>
 <body>
-    <header class="bg-dark h-75 pb-5">
+    <header class="bg-dark h-100 pb-5">
         <nav class="container navbar navbar-expand-lg text-uppercase pb-5">
             <div class="navbar-brand">
                 <a class="navbar-brand text-white" href="#">start bootstrap</a>
             </div>
-            <div class="collapse navbar-collapse d-flex justify-content-lg-end justify-content-center">
+            <div class="collapse navbar-collapse d-flex justify-content-lg-end justify-content-center d-md-none">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a href="#" class="nav-link text-muted">Sing Up</a>
@@ -26,8 +26,8 @@
         <section class="text-center text-white pb-5">
             <h3 class="pt-5">One Page Wonder</h3>
             <h5 class="pb-5">Will rock Lorem, ipsum dolor.</h5>
-            <button class="btn btn-danger pl-5 pr-5 pt-3 pb-3 rounded-pill text-white text-uppercase">learn more</button>
-        </section>
+            <button class="btn pink pl-5 pr-5 pt-3 pb-3 rounded-pill text-white text-uppercase hover-rouge">learn more</button>
+        </section> <!-- 29: btn-danger par la classe .pink (mon style.scss )  -->
     </header>
     
     <section class="container">
@@ -42,7 +42,32 @@
             </div>
         </div>
 
+        <div class="row align-items-center justify-content-center">
+            <div class="col-lg-6 col-md-10 col-sm-12 justify-content-center"> 
+                <img src="public/img/02.jpg" alt="img 2" class="w-100 rounded-circle p-5"> 
+            </div>
+            <div class="col-lg-6 col-md-10 col-sm-12 justify-content-md-center justify-content-sm-center">
+                <h2 class="pt-5 pl-5 display-5 font-weight-bold">Rock and ipsum. dolor XD....</h2>
+                <p class="pb-5 pl-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam harum laboriosam, suscipit dolor, sint quos itaque reprehenderit eum excepturi corporis adipisci numquam quas ipsa natus asperiores, quidem veniam beatae modi?</p>
+            </div>
+            
+        </div>
+
+        <div class="row align-items-center justify-content-center">
+            <div class=" col-lg-6 col-md-10 col-sm-12 justify-content-md-center justify-content-sm-center">
+                <h2 class="pt-5 pl-5 display-5 font-weight-bold">For Lorem ipsum dolor sit....</h2>
+                <p class="pb-5 pl-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam harum laboriosam, suscipit dolor, sint quos itaque reprehenderit eum excepturi corporis adipisci numquam quas ipsa natus asperiores, quidem veniam beatae modi?</p>
+            </div>
+            <div class=" col-lg-6 col-md-10 col-sm-12 justify-content-center"> 
+                <img src="public/img/03.jpg" alt="img 3" class="w-100 rounded-circle p-5"> 
+            </div>
+        </div>
+
     </section>
+
+    <footer class="black text-white text-center p-5">
+        <p class="p-1">Copyright: &copy; dawit.eu 2020 - &lt;?php echo date('Y'); ?&gt; </p>
+    </footer>
 
 
 
